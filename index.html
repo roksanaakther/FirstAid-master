@@ -1,0 +1,67 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" />
+    <title>First Aid</title>
+</head>
+
+<body>
+    <h1 id="firstAidText">First Aid</h1>
+ <div class="container">
+    
+
+    <div class="grid-item"></div>
+    <div class="grid-item btn">
+        <button id="emergency1" onclick="heartAttack()" id="heartAttackButton" >Heart Attack</button>
+        <button id="emergency2" onclick="choking()" id="chokingButton" >Choking</button>
+        <button id="emergency3" onclick="bleeding()" id="bleedingButton" >Bleeding</button>
+
+
+    <p class="label">Search Emergency:</p>
+    <input class="formBox" type="text" id="searchBox"  value="" />
+
+    <button class="submitBtn" onclick="searchEmergency()" id="searchButton" >Search</button>
+    <hr>
+
+    <div id="buttonText"></div>
+    <div id="emergencyDetails">
+    </div>
+    </div>
+
+
+
+    <div class="grid-item"></div>
+</div>  
+        
+    
+<div class="container-2">
+    <div class="grid-item-1"></div>
+    <div class="grid-item-1" id="test">
+        <h3>Admin Panel</h3>
+
+        <p class="label">Emergency Name:</p>
+        <input class="formBox" type="text" id="nameBox" placeholder="" value="" />
+
+        <p class="label">Immediate action to be taken:</p>
+        <input class="formBox" type="text" id="immediateActionBox"  placeholder="" value="" />
+
+        <p class="label">Further action to be taken:</p>
+        <input class="formBox" type="text" id="furtherActionBox"  placeholder="" value="" />
+
+
+        <br>
+
+        <button class="submitBtn" onclick="enterEmergencyDetails()" id="testButton" >Save</button>
+
+        <button class="clearBtn" onclick="clearEmergencyDatabase()" id="clearButton" >DELETE ALL</button>
+    </div>
+    <div class="grid-item-1"></div>
+    <div class="grid-item-1"></div>
+</div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

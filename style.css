@@ -1,0 +1,73 @@
+
+.container {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 9fr 1fr;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(0, 0, 0);
+    } 
+
+
+.grid-item{
+    
+    text-align: center;
+}
+
+#emergency1{
+    background-color: #971608;
+    padding: 10px 20px;
+    color: blanchedalmond;
+    font-size: 25px;
+}
+
+#emergency2{
+    background-color: #3CCF4E;
+    padding: 10px 20px;
+    color: blanchedalmond;
+    font-size: 25px;
+}
+
+#emergency3{
+    background-color: #fa4cc3;
+    padding: 10px 20px;
+    color: blanchedalmond;
+    font-size: 25px;
+}
+#firstAidText{
+    text-align: center;
+}
+
+#emergencyButtons{
+    display: inline;
+}
+
+.nameTest{
+    font-weight: bold;
+    font-size: 30;
+    color: rgb(0, 0, 0);
+}
+.immediateAction{
+    font-weight: bold;
+    font-size: 20;
+}
+.furtherAction{
+    font-weight: bold;
+    font-size: 20;
+}
+
+
+
+.container-2 {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 3fr 2fr 1fr 1fr;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(0, 0, 0);
+    } 
+
+
+/* #test{
+background-color: #3CCF4E;
+} */
